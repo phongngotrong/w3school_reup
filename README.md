@@ -1,5 +1,3 @@
 # 24/12/2021
 
-# Ngô Trọng Phong
-
-# Cố gắng trở thành FullStack Developer =))
+# Lần đầu up source code lên github =))
