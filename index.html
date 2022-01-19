@@ -7,19 +7,20 @@
     <title>W3.CSS Template</title>
     <link rel="icon" href="https://play-lh.googleusercontent.com/i-ij7KM2pFUUpFE31QAUDXg5mzGFNbm16S4tjmg2ZyuhCGLgNJ8oXJRbq7ysh6LoZg" type="image/x-icon" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
     <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
   </head>
   <body>
     <div id="main">
       <div id="header">
         <!--Begin: Nav-->
-        <ul id="nav">#
+        <ul id="nav">
           <li><a href="#">Home</a></li>
           <li><a href="#band">Band</a></li>
           <li><a href="#tour">Tour</a></li>
           <li><a href="#contact">Contact</a></li>
           <li>
-            <a href="">
+            <a href="#">
               More
               <i class="nav-arrow-down ti-angle-down"></i>
             </a>
@@ -37,6 +38,10 @@
         <!--Begin: Search-->
         <div class="search-btn">
           <i class="search-icon ti-search"></i>
+        </div>
+
+        <div id="mobile-menu" class="mobile-menu-btn">
+          <i class="menu-icon ti-menu"></i>
         </div>
         <!--End: Search-->
       </div>
@@ -293,6 +298,32 @@
       modalContainer.addEventListener('click', function(event){
         event.stopPropagation()
       })
+
+    </script>
+
+    <script>
+      var header = document.getElementById('header');
+      var mobileMenu = document.getElementById('mobile-menu');
+      var headerHeight = header.clientHeight;
+
+      // Đóng/mở mobile menu
+      mobileMenu.onclick = function() {
+        var isClosed = header.clientHeight === headerHeight;
+        if(isClosed) {
+          header.style.height = 'auto';
+        } else {
+          header.style.height = null;
+        }
+      }
+
+      // Tự động đóng khi chọn menu 
+      var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+      for(var i=0; i<menuItems.length; i++) {
+        var menuItem = menuItems[i];
+        menuItem.onclick = function() {
+          header.style.height = null;
+        }
+      }
 
     </script>
   </body>
