@@ -12,25 +12,12 @@
     width: 100% !important;
   }
 
-  #nav .subnav a {
-    padding: 5px 12px;
-  }
-
   .btn {
     padding: 15px 16px;
   }
 
   .contact-form .form-control {
     padding: 15px;
-    font-size: 16px;
-  }
-
-  .contact-info {
-    line-height: 2.1;
-  }
-
-  .contact-submit-btn {
-    font-size: 16px;
   }
 
   #footer .social-list {
@@ -41,9 +28,9 @@
     margin: 0 8px;
   }
 
-  #footer .Copyright a {
-    padding: 12px 0px;
-    display: inline-block;
+  #footer .Copyright {
+    font-size: 48px;
+    padding: 0 8px;
   }
 }
 
@@ -100,6 +87,6 @@
   }
 
   .contact-form {
-    margin-top: 32px;
+    margin-top: 16px;
   }
 }

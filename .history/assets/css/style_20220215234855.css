@@ -73,7 +73,6 @@ html {
   padding-top: 16px;
   cursor: pointer;
   border: none;
-  -webkit-appearance: none;
 }
 
 .btn:hover {
@@ -237,7 +236,6 @@ li {
 #slider .text-description {
   font-size: 15px;
   margin-top: 25px;
-  text-shadow: 0 0 1px #000;
 }
 
 #content {
@@ -482,11 +480,6 @@ li {
 
 .contact-info a {
   color: #0c20cf;
-  opacity: 0.8;
-}
-
-.contact-info a:hover {
-  opacity: 1;
 }
 
 .contact-info i[class*="ti-"] {

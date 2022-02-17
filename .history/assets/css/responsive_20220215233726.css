@@ -4,6 +4,9 @@
 
 /* Tablet: width >= 740px and < 1024px */
 @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+  .contact-info {
+    line-height: 2.1;
+  }
 }
 
 /* Tablet && Mobile */
@@ -22,15 +25,6 @@
 
   .contact-form .form-control {
     padding: 15px;
-    font-size: 16px;
-  }
-
-  .contact-info {
-    line-height: 2.1;
-  }
-
-  .contact-submit-btn {
-    font-size: 16px;
   }
 
   #footer .social-list {
@@ -100,6 +94,6 @@
   }
 
   .contact-form {
-    margin-top: 32px;
+    margin-top: 16px;
   }
 }

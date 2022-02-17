@@ -1,50 +1,9 @@
-/* PC: width >= 1024px */
-@media only screen and (min-width: 64em) {
-}
-
 /* Tablet: width >= 740px and < 1024px */
 @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
 }
 
-/* Tablet && Mobile */
-@media only screen and (max-width: 63.9375em) {
-  .s-full-width {
-    width: 100% !important;
-  }
-
-  #nav .subnav a {
-    padding: 5px 12px;
-  }
-
-  .btn {
-    padding: 15px 16px;
-  }
-
-  .contact-form .form-control {
-    padding: 15px;
-    font-size: 16px;
-  }
-
-  .contact-info {
-    line-height: 2.1;
-  }
-
-  .contact-submit-btn {
-    font-size: 16px;
-  }
-
-  #footer .social-list {
-    font-size: 48px;
-  }
-
-  #footer .social-list a {
-    margin: 0 8px;
-  }
-
-  #footer .Copyright a {
-    padding: 12px 0px;
-    display: inline-block;
-  }
+/* PC: width >= 1024px */
+@media only screen and (min-width: 64em) {
 }
 
 /* Mobile: width < 740px */
@@ -95,11 +54,12 @@
     width: 60%;
   }
 
+  .s-full-width,
   .s-col-full {
     width: 100% !important;
   }
 
   .contact-form {
-    margin-top: 32px;
+    margin-top: 16px;
   }
 }

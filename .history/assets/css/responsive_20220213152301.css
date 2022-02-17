@@ -1,0 +1,43 @@
+/* Tablet: width >= 740px and < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+}
+
+/* PC: width >= 1024px */
+@media only screen and (min-width: 64em) {
+}
+
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+  #nav {
+    display: block;
+  }
+
+  #nav > li {
+    display: block;
+  }
+
+  #nav > li:first-child {
+    display: inline-block;
+  }
+
+  #nav .subnav {
+    position: initial;
+    background-color: #333;
+  }
+
+  #nav .subnav a {
+    color: #fff;
+  }
+
+  #header {
+    overflow: hidden;
+  }
+
+  #header .search-btn {
+    display: none;
+  }
+
+  #header .mobile-menu-btn {
+    display: block;
+  }
+}

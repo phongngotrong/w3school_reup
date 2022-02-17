@@ -22,7 +22,6 @@
 
   .contact-form .form-control {
     padding: 15px;
-    font-size: 16px;
   }
 
   .contact-info {
@@ -30,7 +29,7 @@
   }
 
   .contact-submit-btn {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   #footer .social-list {
